@@ -1,0 +1,14 @@
+namespace: orleansk8s
+
+resources:
+- redis
+- apiservice
+- webfrontend
+- voting
+- namespace.yaml
+- dashboard.yaml
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+

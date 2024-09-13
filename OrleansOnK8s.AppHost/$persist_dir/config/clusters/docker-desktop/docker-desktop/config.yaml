@@ -1,0 +1,13 @@
+k9s:
+  cluster: docker-desktop
+  namespace:
+    active: orleansk8s
+    lockFavorites: false
+    favorites:
+    - orleansk8s
+    - default
+  view:
+    active: namespaces
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost

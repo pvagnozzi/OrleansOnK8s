@@ -1,0 +1,11 @@
+{
+  "TemplatePath": "C:\\Users\\pierg\\source\\repos\\OrleansOnK8s\\OrleansOnK8s.AppHost\\templates",
+  "ContainerSettings": {
+    "Registry": null,
+    "RepositoryPrefix": null,
+    "Tags": [
+      "latest"
+    ],
+    "Builder": "docker"
+  }
+}

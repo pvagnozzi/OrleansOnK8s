@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>b266fc63-37a6-4403-a886-c615a853be4a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrleansOnK8s.ApiService\OrleansOnK8s.ApiService.csproj" />
+    <ProjectReference Include="..\OrleansOnK8s.Voting\OrleansOnK8s.Voting.csproj" />
+    <ProjectReference Include="..\OrleansOnK8s.Web\OrleansOnK8s.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.0" />
+    <PackageReference Include="Aspire.Hosting.Orleans" Version="8.2.0" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="8.2.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.4" />
+  </ItemGroup>
+
+</Project>
